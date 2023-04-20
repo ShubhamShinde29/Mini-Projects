@@ -1,0 +1,21 @@
+
+---User Table--------------------------------------
+create table student(id integer not null AUTO_INCREMENT primary key,username char(40),pass char(40),Sname varchar(40),Mob Bigint,course varchar(40),class varchar(40) );
+
+insert into student(username,pass,Sname,Mob,course,class) values('amit@12','123','Amit Deshmukh','7845227733','BTech','SY');
+insert into student(username,pass,Sname,Mob,course,class) values('sahil@2','123','Sahil Patil','7855557733','MTech','FY');
+
+---Admin Table-------------------------
+create table admin(admin_username char(20), password char(20) );
+
+insert into admin values('Shubham@29','12345678');
+
+
+----------------------------------
+select * from student;
+select * from admin;
+
+
+
+
+
